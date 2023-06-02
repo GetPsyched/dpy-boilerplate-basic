@@ -8,16 +8,16 @@ This project contains 2 boilerplate repositories that you can use to kickstart y
 
 There are a bunch of distinctions between the 2 configs. The major ones are listed below!
 
-| Feature                 | Basic              | Advanced           |
-|-------------------------|:------------------:|:------------------:|
-| Cog-based architecture  | :heavy_check_mark: | :heavy_check_mark: |
-| Prefix command examples | :heavy_check_mark: | :heavy_check_mark: |
-| Slash command examples  | :heavy_check_mark: | :heavy_check_mark: |
-| Database                | SQLite             | PostgreSQL         |
-| Logging                 | :x:                | :heavy_check_mark: |
-| Client session          | :x:                | :heavy_check_mark: |
-| Custom help command     | :x:                | :heavy_check_mark: |
-| Dev environment         | :x:                | :heavy_check_mark: |
+| Feature                 | Basic  | Advanced   |
+|-------------------------|:------:|:----------:|
+| Cog-based architecture  | ✅     | ✅         |
+| Prefix command examples | ✅     | ✅         |
+| Slash command examples  | ✅     | ✅         |
+| Database                | SQLite | PostgreSQL |
+| Logging                 | ❌     | ✅         |
+| Client session          | ❌     | ✅         |
+| Custom help command     | ❌     | ✅         |
+| Dev environment         | ❌     | ✅         |
 
 **TL;DR:** Basic is good for a small scale bot with limited features. Advanced has a lot more options that you'd need when having a bigger feature-set.
 
